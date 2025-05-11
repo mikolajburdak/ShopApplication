@@ -44,7 +44,7 @@ export const Checkout = ({cart}: CheckoutProps) => {
                     className="right-content"
                     onClick={() => {
                         localStorage.setItem("cart", JSON.stringify(cart));
-                        window.location.href = "/confirmation.html";
+                        window.location.href = "ShopApplication/confirmation.html";
                     }}
                 >
                     Złóż zamówienie
