@@ -1,0 +1,41 @@
+.ProductWithButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1rem solid #ccc;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    gap: 3rem;
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.ProductWithButtons .right-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.ProductWithButtons button {
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.HandleCartButton:hover {
+    transform: scale(1.03);
+}

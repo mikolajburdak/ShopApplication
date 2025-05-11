@@ -1,3 +1,5 @@
+import "../../styles/QuantityOfProductsButton.css";
+
 type QuantitySelectorProps = {
     value: number;
     onChange: (newValue: number) => void;
@@ -22,10 +24,10 @@ export const QuantityOfProductsButton = ({
         }
     };
     return (
-        <div>
-            <button onClick={decrease}>⬇️</button>
-            <div>{value}</div>
-            <button onClick={increase}>⬆️</button>
+        <div className={"QuantityOfProductsButtons"}>
+            <button className={"DecreaseButton"} onClick={decrease}>⬇️</button>
+            <div className={"Quantity"}>{value}</div>
+            <button className={"IncreaseButton"} onClick={increase}>⬆️</button>
         </div>
     )
 }

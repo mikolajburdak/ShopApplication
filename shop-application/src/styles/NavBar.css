@@ -1,0 +1,23 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+    background-color: #333;
+    color: white;
+}
+
+.NavBar-left {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.NavBar-right {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}

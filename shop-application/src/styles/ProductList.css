@@ -1,0 +1,10 @@
+.ProductList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 2rem;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+

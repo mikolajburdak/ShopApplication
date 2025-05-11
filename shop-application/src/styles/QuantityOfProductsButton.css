@@ -1,0 +1,33 @@
+.QuantityOfProductsButtons {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.Quantity {
+    min-width: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+    font-weight: bold;
+}
+
+.DecreaseButton,
+.IncreaseButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 0;
+}
+
+.DecreaseButton:hover,
+.IncreaseButton:hover {
+    transform: scale(1.1);
+}

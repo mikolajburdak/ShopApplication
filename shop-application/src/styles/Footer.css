@@ -1,0 +1,27 @@
+.Footer {
+    background-color: #f5f5f5;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+    border-top: 1px solid #ccc;
+    margin-top: auto;}
+
+.FooterText {
+    margin: 0;
+}
+
+.FooterLink {
+    margin-left: 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.FooterLink:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
