@@ -38,7 +38,7 @@
 
 }
 
-.TotalAmountAndCheckout .right-content:hover {
+.TotalAmountAndCheckout .right-content a:not(.disabled):hover {
     text-decoration: underline;
 }
 
@@ -49,4 +49,10 @@
     height: 60vh;
     font-size: 3rem;
     color: #444;
+}
+
+.Checkout.disabled {
+    pointer-events: none;
+    color: gray;
+    text-decoration: none;
 }

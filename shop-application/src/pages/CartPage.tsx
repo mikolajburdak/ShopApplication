@@ -20,6 +20,8 @@ export const CartPage =({
 
     const totalZl = Math.floor(totalInCents / 100);
     const totalGr = totalInCents % 100;
+    const isCartEmpty = cart.length === 0;
+
 
     return (
         <div className="CartContainer">
@@ -47,7 +49,12 @@ export const CartPage =({
                     <Link to="/">Cofnij</Link>
                 </div>
                 <div className={"right-content"}>
-                    <Link className={"Checkout"} to={"/checkout"}>Podsumuj zamówienie</Link>
+                    <Link
+                        className={`Checkout ${isCartEmpty ? "disabled" : ""}`}
+                        to={isCartEmpty ? "#" : "/checkout"}
+                    >
+                        Podsumuj zamówienie
+                    </Link>
                 </div>
             </div>
         </div>
