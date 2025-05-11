@@ -6,6 +6,7 @@ import {CartPage} from "./pages/CartPage.tsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {NavBar} from "./components/navbar/NavBar.tsx";
 import {Footer} from "./components/footer/Footer.tsx";
+import {Checkout} from "./pages/Checkout.tsx";
 
 type CartItem = {
     id: number;
@@ -69,6 +70,7 @@ function App() {
                       onRemoveFromCart={handleRemoveFromCart}
                   />
               } />
+              <Route path="/checkout" element={<Checkout cart={cart} />} />
           </Routes>
           <Footer/>
       </Router>

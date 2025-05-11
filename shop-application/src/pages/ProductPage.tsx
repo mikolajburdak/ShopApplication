@@ -10,7 +10,7 @@ type ProductListProps = {
 };
 
 export const ProductPage = ({
-                                cart, products, onAddToCart,onUpdateCart,onRemoveFromCart
+    cart, products, onAddToCart,onUpdateCart,onRemoveFromCart
 }: ProductListProps) => {
     return (
         <div>

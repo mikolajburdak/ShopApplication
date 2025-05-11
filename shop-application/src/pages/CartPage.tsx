@@ -44,6 +44,9 @@ export const CartPage =({
                     <p className={"TotalAmount"}>Łączna cena: {totalZl} zł {totalGr.toString().padStart(2, "0")} gr</p>
 
                 </div>
+                <div className="right-content">
+                    <Link to="/">Cofnij</Link>
+                </div>
                 <div className={"right-content"}>
                     <Link className={"Checkout"} to={"/checkout"}>Podsumuj zamówienie</Link>
                 </div>
