@@ -1,4 +1,4 @@
-import { Product } from "../Product";
+import { Product } from "./Product";
 import { QuantityOfProductsButton } from "./QuantityOfProductsButton";
 import "../../styles/ProductWithButtons.css";
 import {HandleCartButton} from "./HandleCartButton.tsx";

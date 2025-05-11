@@ -1,4 +1,4 @@
-import "../styles/CartItem.css"
+import "../../styles/CartItem.css"
 
 export type CartItemProps = {
     id: number;

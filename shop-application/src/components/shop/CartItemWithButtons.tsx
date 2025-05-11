@@ -1,8 +1,8 @@
-import { QuantityOfProductsButton } from "./shop/QuantityOfProductsButton";
-import { HandleCartButton } from "./shop/HandleCartButton.tsx";
+import { QuantityOfProductsButton } from "./QuantityOfProductsButton.tsx";
+import { HandleCartButton } from "./HandleCartButton.tsx";
 import {useEffect, useState} from "react";
 import {CartItem} from "./CartItem.tsx";
-import "../styles/CartItemWithButtons.css"
+import "../../styles/CartItemWithButtons.css"
 
 type CartItemWithButtonProps = {
     id: number;

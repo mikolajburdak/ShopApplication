@@ -1,4 +1,4 @@
-import "../styles/Product.css";
+import "../../styles/Product.css";
 
 type ProductProps = {
     id: number;

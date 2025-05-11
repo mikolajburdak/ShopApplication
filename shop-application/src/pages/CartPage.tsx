@@ -1,4 +1,4 @@
-import {CartItemWithButtons} from "../components/CartItemWithButtons.tsx";
+import {CartItemWithButtons} from "../components/shop/CartItemWithButtons.tsx";
 import "../styles/CartPage.css"
 import {Link} from "react-router-dom";
 
