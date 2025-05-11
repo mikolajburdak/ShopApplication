@@ -25,6 +25,5 @@ document.addEventListener("DOMContentLoaded", () => {
     totalP.innerHTML = `<strong>Łączna kwota: ${(total / 100).toFixed(2)} zł</strong>`;
     container.appendChild(totalP);
 
-    // Wyczyść koszyk
     localStorage.removeItem("cart");
 });
