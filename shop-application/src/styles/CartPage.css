@@ -19,7 +19,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 10rem;
     flex: 1;
     font-size: 1.5rem;
     background: #1a1a1a;
@@ -27,7 +26,7 @@
 
 .TotalAmountAndCheckout .right-content {
     display: flex;
-    padding-right: 12.5rem;
+    padding-right: 9rem;
     justify-content: flex-end;
     align-items: center;
     flex: 1;
@@ -41,4 +40,13 @@
 
 .TotalAmountAndCheckout .right-content:hover {
     text-decoration: underline;
+}
+
+.EmptyCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 3rem;
+    color: #444;
 }

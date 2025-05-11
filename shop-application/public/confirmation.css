@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.confirmation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: green;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0066cc;
+}

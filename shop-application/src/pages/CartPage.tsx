@@ -23,9 +23,8 @@ export const CartPage =({
 
     return (
         <div className="CartContainer">
-            <h2>Your CartPage</h2>
             {cart.length === 0 ? (
-                <p>Your cart is empty</p>
+                <p className={"EmptyCart"}>Twój koszyk jest pusty</p>
             ) : (
                 <div className="CartList">
                     {cart.map((item) => (

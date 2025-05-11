@@ -21,6 +21,13 @@ type CartItem = {
 function App() {
     const [cart, setCart] = useState<CartItem[]>([]);
 
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+    const totalInCents = cart.reduce((sum, item) =>
+        sum + (item.price.main * 100 + item.price.fractional) * item.quantity, 0);
+    const totalZl = Math.floor(totalInCents / 100);
+    const totalGr = totalInCents % 100;
+
     const handleAddToCart = (product: CartItem) => {
         setCart(prevCart => {
             const existing = prevCart.find(p => p.id === product.id);
@@ -51,7 +58,11 @@ function App() {
 
   return (
       <Router>
-          <NavBar />
+          <NavBar
+              totalItems={totalItems}
+              totalZl={totalZl}
+              totalGr={totalGr}
+          />
           <Routes>
               <Route path="/" element={
                   <ProductPage

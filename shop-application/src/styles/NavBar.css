@@ -16,8 +16,26 @@
 
 .NavBar-right {
     color: white;
+    display: flex;
     text-decoration: none;
     justify-content: center;
+    align-content: center;
     margin-top: 0.5rem;
-    margin-right: 1rem;
+    margin-right: 6rem;
+    flex-direction: row;
+}
+
+.cart-info {
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.Amount{
+   display: flex;
+}
+
+.Price{
+    display: flex;
 }
